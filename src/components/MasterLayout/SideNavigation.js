@@ -10,8 +10,7 @@ import { RiDashboardLine } from "react-icons/ri";
 import { BsListNested,BsHourglass } from "react-icons/bs";
 import { MdOutlineCancelPresentation } from "react-icons/md";
 
-import myPic from '../../asset/image/jubo.jpg'
-import sideNavLogo from '../../asset/image/sideNavLogo.png'
+
 
 const SideNavigation = (props) => 
 {
@@ -70,7 +69,7 @@ const SideNavigation = (props) =>
 
             <div className='side-nav-open side-nav'>
                 <div className='side-nav-image-div'>
-                    <img className='side-nav-image' src={sideNavLogo} />
+//                     <img className='side-nav-image' src={sideNavLogo} />
                 </div>
                 
                 <NavLink to='/' className={(p1) => p1.isActive ? "side-nav-item-active side-nav-item" : "side-nav-item" }>
